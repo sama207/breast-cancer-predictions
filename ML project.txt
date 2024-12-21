@@ -1,0 +1,27 @@
+ML project 
+
+- dataset size 5000 record
+- algorithms : 
+	1- decision tree
+	2- random forest
+
+- labels : 41 label
+- input : 5 symptoms (اعراض) from user
+
+
+Data analysis : 
+features correlation
+
+stomach pain : corr num = 9 , max value = 0.6(ulcers on tongue)
+
+
+itching : corr num > 10 , max value = 0.4
+skin rash : corr num > 10 , max value = 0.5
+continuous sneezing : corr num > 10 , max value = 0.7
+
+same : chills,joint pain,acidity,
+
+shivering : corr num = 3 , max value = 0.9 (watering from eyes)
+nodal skin eruptions : corr num = 3 , max value = 0.9 (dischromic patches)
+
+same : ulcers_on_tongue(last)
